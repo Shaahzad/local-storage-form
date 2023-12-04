@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body style="display: flex; justify-content: center; align-items: center; flex-direction: column; margin-top: 10px;">
+        <div style="box-shadow: 10px 10px 30px lightgray; padding: 30px 30px;">
+            <h1 style="text-align: center;">Sign up</h1>
+            <input type="text" name="" id="fname" placeholder="First Name" style="padding: 10px 10px; outline: none;">
+            <p id="f-error"></p>
+            <input type="text" name="" id="lname" placeholder="Last Name" style="padding: 10px 10px; outline: none;">
+            <br><br>
+            <input type="email" name="" id="email" placeholder="Email" style="padding: 10px 10px; outline: none;">
+            <br><br>
+            <input type="password" name="" id="pass" placeholder="Password" style="padding: 10px 10px; outline: none;">
+            <p id="pass-error"></p>
+            <input type="password" name="" id="Repass" placeholder="Re Password" style="padding: 10px 10px; outline: none;">
+            <br><br>
+            <button name="" id="btn" onclick="dosignup()" value="submit" style="width: 190px;padding: 10px 10px;  border: none; font-size: 20px;">Submit</button>
+            <br><br>
+            <a href="../login/login.html">Already Have an acoount?</a>
+        </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>

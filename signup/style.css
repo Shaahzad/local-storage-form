@@ -1,0 +1,12 @@
+#btn:hover{
+background-color: black;
+color: white;
+transition: 0.5s ease-in-out;
+}
+#btn{
+    background-color: lightblue;
+}
+input:focus{
+box-shadow: 0px 0px 25px lightblue;
+border: none;
+}
